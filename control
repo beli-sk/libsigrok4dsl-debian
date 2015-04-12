@@ -1,0 +1,22 @@
+Source: libsigrok4dslogic
+Priority: optional
+Maintainer: Michal Belica <devel@beli.sk>
+Build-Depends: debhelper (>= 9), autotools-dev
+Standards-Version: 3.9.5
+Section: libs
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git:
+#Vcs-Browser:
+
+Package: libsigrok4dslogic-dev
+Section: libdevel
+Architecture: any
+Depends: libsigrok4dslogic0 (= ${binary:Version}), ${misc:Depends}
+Description: Library for DSLogic analyzer (dev package)
+ Library for DSLogic analyzer based on libsigrok.
+
+Package: libsigrok4dslogic0
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Library for DSLogic analyzer
+ Library for DSLogic analyzer based on libsigrok.
