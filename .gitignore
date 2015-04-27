@@ -1,7 +1,7 @@
 *.log
-libusbx-dev/
-libusbx1/
 tmp/
 files
 *.substvars
 *.debhelper
+libsigrok4dslogic-dev/
+libsigrok4dslogic1/
