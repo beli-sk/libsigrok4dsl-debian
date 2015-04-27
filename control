@@ -1,22 +1,22 @@
-Source: libsigrok4dslogic
+Source: libsigrok4dsl
 Priority: optional
 Maintainer: Michal Belica <devel@beli.sk>
 Build-Depends: debhelper (>= 9), autotools-dev, libglib2.0-dev (>= 2.32.0), libzip-dev (>=0.10), libudev-dev, libasound2-dev, check, libusbx-dev (>= 1.0.18)
 Standards-Version: 3.9.5
 Section: libs
 Homepage: http://dreamsourcelab.com/
-Vcs-Git: https://github.com/beli-sk/libsigrok4dslogic-debian.git
-Vcs-Browser: https://github.com/beli-sk/libsigrok4dslogic-debian
+Vcs-Git: https://github.com/beli-sk/libsigrok4dsl-debian.git
+Vcs-Browser: https://github.com/beli-sk/libsigrok4dsl-debian
 
-Package: libsigrok4dslogic-dev
+Package: libsigrok4dsl-dev
 Section: libdevel
 Architecture: any
-Depends: libsigrok4dslogic1 (= ${binary:Version}), ${misc:Depends}
+Depends: libsigrok4dsl (= ${binary:Version}), ${misc:Depends}
 Conflicts: libsigrok-dev
 Description: Library for DSLogic analyzer (dev package)
  Library for DSLogic analyzer based on libsigrok - development files.
 
-Package: libsigrok4dslogic1
+Package: libsigrok4dsl
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Library for DSLogic analyzer

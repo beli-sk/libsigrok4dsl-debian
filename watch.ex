@@ -8,16 +8,16 @@ version=3
 
 # Uncomment to examine a Webpage
 # <Webpage URL> <string match>
-#http://www.example.com/downloads.php libsigrok4dslogic-(.*)\.tar\.gz
+#http://www.example.com/downloads.php libsigrok4dsl-(.*)\.tar\.gz
 
 # Uncomment to examine a Webserver directory
-#http://www.example.com/pub/libsigrok4dslogic-(.*)\.tar\.gz
+#http://www.example.com/pub/libsigrok4dsl-(.*)\.tar\.gz
 
 # Uncommment to examine a FTP server
-#ftp://ftp.example.com/pub/libsigrok4dslogic-(.*)\.tar\.gz debian uupdate
+#ftp://ftp.example.com/pub/libsigrok4dsl-(.*)\.tar\.gz debian uupdate
 
 # Uncomment to find new files on sourceforge, for devscripts >= 2.9
-# http://sf.net/libsigrok4dslogic/libsigrok4dslogic-(.*)\.tar\.gz
+# http://sf.net/libsigrok4dsl/libsigrok4dsl-(.*)\.tar\.gz
 
 # Uncomment to find new files on GooglePages
-# http://example.googlepages.com/foo.html libsigrok4dslogic-(.*)\.tar\.gz
+# http://example.googlepages.com/foo.html libsigrok4dsl-(.*)\.tar\.gz
