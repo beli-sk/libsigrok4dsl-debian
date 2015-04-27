@@ -3,5 +3,5 @@ tmp/
 files
 *.substvars
 *.debhelper
-libsigrok4dslogic-dev/
-libsigrok4dslogic1/
+libsigrok4dsl-dev/
+libsigrok4dsl/

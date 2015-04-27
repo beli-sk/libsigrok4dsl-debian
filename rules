@@ -7,6 +7,9 @@
 DPKG_EXPORT_BUILDFLAGS = 1
 include /usr/share/dpkg/default.mk
 
+NPROC_CMD := echo $$((`nproc`+1))
+NPROC := $(shell $(NPROC_CMD))
+
 # see FEATURE AREAS in dpkg-buildflags(1)
 #export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
@@ -20,6 +23,9 @@ include /usr/share/dpkg/default.mk
 # main packaging script based on dh7 syntax
 %:
 	dh $@  --with autotools-dev
+
+override_dh_auto_build:
+	dh_auto_build -- -j$(NPROC)
 
 # debmake generated override targets
 # This is example for Cmake (See http://bugs.debian.org/641051 )
