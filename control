@@ -18,6 +18,7 @@ Description: Library for DSLogic analyzer (dev package)
 
 Package: libsigrok4dsl
 Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Library for DSLogic analyzer
  Library for DSLogic analyzer based on libsigrok.
